@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
     
   
     
@@ -18,28 +19,49 @@
      </style>
 
     <!-- Nav bar -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Change Page BG color -->
+    <style type="text/css">
+        body { background: lightgray !important; }
+     </style>
+    
+    <!-- Nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="p-3 mb-2 bg-info text-white">
-            <a class="h2" href="#" style="color: white;">Annastasshia Ames</a>
-         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            
-          </ul>
-        </div>
-      </nav>
+      <div class="navbar-brand p-3 mb-2 bg-info text-white">
+        <a class="h2" href="index.html" style="color: white;">Annastasshia Ames</a>
+     </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://annastasshia.github.io/Checkpoint/">API Search</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://annastasshia.github.io/Quiz/">Quiz</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Annastasshia">GitHub Repositories</a>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a> -->
+            <!-- href="portfolio.html" temporaraly taken out -->
+            <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://annastasshia.github.io/Checkpoint/">API Search</a>
+              <a class="dropdown-item" href="https://annastasshia.github.io/Quiz/">Quiz</a>
+              <a class="dropdown-item" href="https://github.com/Annastasshia">GitHub Repositories</a>
+            </div> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
 
 <!-- Portfolio -->   
       <div class="container">
